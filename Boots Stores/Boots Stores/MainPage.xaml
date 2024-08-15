@@ -4,7 +4,8 @@
              x:Class="Boots_Stores.MainPage">
 
     <StackLayout>
-        <Label Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Label Text="Store Number" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Button x:Name="BTN_ShowStore"  Text="Show Store"></Button>
     </StackLayout>
 
 </ContentPage>

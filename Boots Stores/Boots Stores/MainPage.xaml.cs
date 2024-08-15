@@ -13,6 +13,12 @@ namespace Boots_Stores
         public MainPage()
         {
             InitializeComponent();
+            BTN_ShowStore.Clicked += BTN_ShowStore_Clicked;
+        }
+
+        private void BTN_ShowStore_Clicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
