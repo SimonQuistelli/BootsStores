@@ -4,8 +4,10 @@
              x:Class="Boots_Stores.MainPage">
 
     <StackLayout>
-        <Label Text="Store Number" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        <Button x:Name="BTN_ShowStore"  Text="Show Store"></Button>
+        <Label x:Name="lab_storeNumber" Text="{Binding StoreNumber}" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Label x:Name="lab_StoreName" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Button x:Name="btn_ShowStore"  Text="Show Store"></Button>
+        <Button x:Name="btn_Next"  Text="Next"></Button>
     </StackLayout>
 
 </ContentPage>
