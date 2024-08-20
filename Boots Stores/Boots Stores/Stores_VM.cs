@@ -32,5 +32,11 @@ namespace Boots_Stores
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        public void ShowStore()
+        {
+            _StoreName = "Cribbs Causeway";
+            OnPropertyChanged("StoreName");
+        }
     }
 }

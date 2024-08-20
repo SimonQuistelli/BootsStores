@@ -15,13 +15,14 @@ namespace Boots_Stores
         {
             _Stores = new Stores_VM();
             InitializeComponent();
-            lab_storeNumber.BindingContext = _Stores;
+            lab_StoreNumber.BindingContext = _Stores;
+            lab_StoreName.BindingContext = _Stores;
             btn_ShowStore.Clicked += BTN_ShowStore_Clicked;
         }
 
         private void BTN_ShowStore_Clicked(object sender, EventArgs e)
         {
-            lab_StoreName.Text = "Cribbs Causeway";
+            _Stores.ShowStore();
         }
     }
 }
