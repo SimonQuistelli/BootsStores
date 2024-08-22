@@ -11,6 +11,7 @@ namespace Boots_Stores
 
         private int _StoreNumber;
         private string _StoreName;
+        private StoreList _Stores;
 
         public string StoreNumber
         {
@@ -26,6 +27,8 @@ namespace Boots_Stores
         {
             _StoreNumber = 2089;
             _StoreName = "";
+
+            _Stores = new StoreList();
         }
 
         protected void OnPropertyChanged(string name)
@@ -36,6 +39,12 @@ namespace Boots_Stores
         public void ShowStore()
         {
             _StoreName = "Cribbs Causeway";
+            OnPropertyChanged("StoreName");
+        }
+
+        public void NextStore()
+        {
+            _StoreName = "";
             OnPropertyChanged("StoreName");
         }
     }
