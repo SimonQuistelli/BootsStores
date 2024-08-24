@@ -9,13 +9,13 @@ namespace Boots_Stores
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private int _StoreNumber;
         private string _StoreName;
-        private StoreList _Stores;
+        private StoreList _StoreList;
+        private Store _Store;
 
         public string StoreNumber
         {
-            get { return _StoreNumber.ToString(); }
+            get { return _Store.StoreNumber.ToString(); }
         }
 
         public string StoreName
@@ -25,10 +25,10 @@ namespace Boots_Stores
 
         public Stores_VM()
         {
-            _StoreNumber = 2089;
             _StoreName = "";
 
-            _Stores = new StoreList();
+            _StoreList = new StoreList();
+            _Store = _StoreList.GetRandomStore();
         }
 
         protected void OnPropertyChanged(string name)
@@ -38,13 +38,14 @@ namespace Boots_Stores
 
         public void ShowStore()
         {
-            _StoreName = "Cribbs Causeway";
+            _StoreName = _Store.StoreName;
             OnPropertyChanged("StoreName");
         }
 
         public void NextStore()
         {
             _StoreName = "";
+            _Store = _StoreList.GetRandomStore();
             OnPropertyChanged("StoreName");
         }
     }

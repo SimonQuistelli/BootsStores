@@ -31,8 +31,14 @@ namespace Boots_Stores
 
         private void LoadStores()
         {
+            Stores.Add(new Store(243, "Broadmead"));
             Stores.Add(new Store(255, "Yate"));
+            Stores.Add(new Store(296, "Bridgend"));
+            Stores.Add(new Store(2057, "Cardiff Hospital"));
+            Stores.Add(new Store(2089, "Cribbs Causeway"));
             Stores.Add(new Store(2112, "Clevdon"));
+            Stores.Add(new Store(2255, "Bristol Airport"));
+            Stores.Add(new Store(6424, "Emerson Green"));
         }
 
         public Store GetRandomStore()

@@ -18,11 +18,17 @@ namespace Boots_Stores
             lab_StoreNumber.BindingContext = _Stores;
             lab_StoreName.BindingContext = _Stores;
             btn_ShowStore.Clicked += BTN_ShowStore_Clicked;
+            btn_Next.Clicked += BTN_Next_Clicked;
         }
 
         private void BTN_ShowStore_Clicked(object sender, EventArgs e)
         {
             _Stores.ShowStore();
+        }
+
+        private void BTN_Next_Clicked(object sender, EventArgs e)
+        {
+            _Stores.NextStore();
         }
     }
 }
