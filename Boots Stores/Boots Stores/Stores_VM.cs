@@ -46,6 +46,7 @@ namespace Boots_Stores
         {
             _StoreName = "";
             _Store = _StoreList.GetRandomStore();
+            OnPropertyChanged("StoreNumber");
             OnPropertyChanged("StoreName");
         }
     }
