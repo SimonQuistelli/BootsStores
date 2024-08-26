@@ -12,6 +12,7 @@ namespace Boots_Stores
         private string _StoreName;
         private StoreList _StoreList;
         private Store _Store;
+        private Queue<Store> _RecentStores;
 
         public string StoreNumber
         {
@@ -29,6 +30,8 @@ namespace Boots_Stores
 
             _StoreList = new StoreList();
             _Store = _StoreList.GetRandomStore();
+            _RecentStores = new Queue<Store>();
+            _RecentStores.Enqueue(_Store);
         }
 
         protected void OnPropertyChanged(string name)
@@ -44,8 +47,23 @@ namespace Boots_Stores
 
         public void NextStore()
         {
+            bool RecentStore = false;
             _StoreName = "";
             _Store = _StoreList.GetRandomStore();
+
+            RecentStore = _RecentStores.Contains(_Store);
+
+            while (RecentStore)
+            {
+                _Store = _StoreList.GetRandomStore();
+                RecentStore = _RecentStores.Contains(_Store);
+            }
+
+            if (_RecentStores.Count > 15)
+                _RecentStores.Dequeue();
+
+            _RecentStores.Enqueue(_Store);
+
             OnPropertyChanged("StoreNumber");
             OnPropertyChanged("StoreName");
         }
