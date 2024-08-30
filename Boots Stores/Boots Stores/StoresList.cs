@@ -21,11 +21,13 @@ namespace Boots_Stores
         {
             Stores.Add(new Store(243, "Broadmead"));
             Stores.Add(new Store(245, "Gloucester Rd"));
+            Stores.Add(new Store(254, "Gloucester Eastgate"));
             Stores.Add(new Store(255, "Yate"));
             Stores.Add(new Store(261, "Stroud"));
             Stores.Add(new Store(267, "Frome"));
             Stores.Add(new Store(276, "Hereford"));
             Stores.Add(new Store(280, "Swansea The Quadrant"));
+            Stores.Add(new Store(283, "Llanelli Vaughan st"));
             Stores.Add(new Store(286, "Pontypridd"));
             Stores.Add(new Store(290, "Neath"));
             Stores.Add(new Store(291, "Port Talbot"));
@@ -37,10 +39,15 @@ namespace Boots_Stores
             Stores.Add(new Store(326, "Tewkesbury"));
             Stores.Add(new Store(332, "Abergavenny"));
             Stores.Add(new Store(340, "Porthcawl"));
+            Stores.Add(new Store(341, "Treorchy"));
             Stores.Add(new Store(342, "Blackwood"));
             Stores.Add(new Store(345, "Ludlow"));
             Stores.Add(new Store(350, "Neilsea"));
             Stores.Add(new Store(371, "Wells"));
+            Stores.Add(new Store(394, "Cirenceter"));
+            Stores.Add(new Store(399, "Chippenham"));
+            Stores.Add(new Store(432, "Ross-on-Wye"));
+            Stores.Add(new Store(446, "Bristol Cliffton Down"));
             Stores.Add(new Store(451, "Chepstow"));
             Stores.Add(new Store(494, "Cardiff Whichchurch"));
             Stores.Add(new Store(1035, "Bradly Stoke"));
@@ -53,6 +60,7 @@ namespace Boots_Stores
             Stores.Add(new Store(2105, "Tredeger"));
             Stores.Add(new Store(2112, "Clevdon"));
             Stores.Add(new Store(2255, "Bristol Airport"));
+            Stores.Add(new Store(6386, "Trowbridge"));
             Stores.Add(new Store(6424, "Emerson Green"));
             Stores.Add(new Store(6547, "Llantrisant"));
             Stores.Add(new Store(6554, "Shepton Mallet"));
