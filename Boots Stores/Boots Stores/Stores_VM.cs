@@ -59,7 +59,7 @@ namespace Boots_Stores
                 RecentStore = _RecentStores.Contains(_Store);
             }
 
-            if (_RecentStores.Count > 20)
+            if (_RecentStores.Count > 30)
                 _RecentStores.Dequeue();
 
             _RecentStores.Enqueue(_Store);

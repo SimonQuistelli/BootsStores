@@ -49,25 +49,37 @@ namespace Boots_Stores
             Stores.Add(new Store(432, "Ross-on-Wye"));
             Stores.Add(new Store(446, "Bristol Cliffton Down"));
             Stores.Add(new Store(451, "Chepstow"));
+            Stores.Add(new Store(491, "Thornbury"));
             Stores.Add(new Store(494, "Cardiff Whichchurch"));
+            Stores.Add(new Store(512, "Bristol Queens Rd"));
+            Stores.Add(new Store(843, "Ledbury"));
             Stores.Add(new Store(1035, "Bradly Stoke"));
+            Stores.Add(new Store(1138, "Cardiff St Davis"));
             Stores.Add(new Store(2011, "Bath Southgate"));
             Stores.Add(new Store(2019, "Caerphilly"));
+            Stores.Add(new Store(2023, "Cwmbran"));
             Stores.Add(new Store(2054, "Builth Wells"));
             Stores.Add(new Store(2057, "Cardiff Hospital"));
+            Stores.Add(new Store(2058, "Monmouth"));
             Stores.Add(new Store(2074, "Brecon"));
             Stores.Add(new Store(2089, "Cribbs Causeway"));
             Stores.Add(new Store(2105, "Tredeger"));
             Stores.Add(new Store(2112, "Clevdon"));
             Stores.Add(new Store(2255, "Bristol Airport"));
+            Stores.Add(new Store(6034, "Gloucester Quedgeley RP"));
             Stores.Add(new Store(6386, "Trowbridge"));
             Stores.Add(new Store(6424, "Emerson Green"));
+            Stores.Add(new Store(6476, "Newport RP (Spitty)"));
+            Stores.Add(new Store(6481, "Avonmeads"));
+            Stores.Add(new Store(6507, "Chelthenhan Gallagher"));
+            Stores.Add(new Store(6542, "Cardiff Ty Glas"));
+            Stores.Add(new Store(6544, "Longwell Green"));
             Stores.Add(new Store(6547, "Llantrisant"));
             Stores.Add(new Store(6554, "Shepton Mallet"));
             Stores.Add(new Store(6565, "Bristol Eastgate"));
             Stores.Add(new Store(6575, "Swansea Morfa"));
             Stores.Add(new Store(6588, "Merthyr tydfil"));
-            Stores.Add(new Store(6611, "Bristol Imperial Retail Park"));
+            Stores.Add(new Store(6611, "Bristol Imperial RP"));
             Stores.Add(new Store(6705, "Evesham"));
         }
 
