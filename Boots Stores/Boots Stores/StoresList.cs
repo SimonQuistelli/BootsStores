@@ -21,8 +21,10 @@ namespace Boots_Stores
         {
             Stores.Add(new Store(243, "Broadmead"));
             Stores.Add(new Store(245, "Gloucester Rd"));
+            Stores.Add(new Store(252, "Evesham Bridge Street"));
             Stores.Add(new Store(254, "Gloucester Eastgate"));
             Stores.Add(new Store(255, "Yate"));
+            Stores.Add(new Store(260, "Cheltenham High Street"));
             Stores.Add(new Store(261, "Stroud"));
             Stores.Add(new Store(267, "Frome"));
             Stores.Add(new Store(276, "Hereford"));
@@ -34,9 +36,11 @@ namespace Boots_Stores
             Stores.Add(new Store(292, "Newport Commercial"));
             Stores.Add(new Store(295, "Barry"));
             Stores.Add(new Store(296, "Bridgend"));
+            Stores.Add(new Store(320, "Ebbw Vale"));
             Stores.Add(new Store(322, "Cardiff Albany Rd"));
             Stores.Add(new Store(323, "Cardiff Queen Street"));
             Stores.Add(new Store(326, "Tewkesbury"));
+            Stores.Add(new Store(331, "Cardiff Penarth"));
             Stores.Add(new Store(332, "Abergavenny"));
             Stores.Add(new Store(340, "Porthcawl"));
             Stores.Add(new Store(341, "Treorchy"));
@@ -46,9 +50,15 @@ namespace Boots_Stores
             Stores.Add(new Store(371, "Wells"));
             Stores.Add(new Store(394, "Cirenceter"));
             Stores.Add(new Store(399, "Chippenham"));
+            Stores.Add(new Store(420, "Keynsham"));
             Stores.Add(new Store(432, "Ross-on-Wye"));
             Stores.Add(new Store(446, "Bristol Cliffton Down"));
             Stores.Add(new Store(451, "Chepstow"));
+            Stores.Add(new Store(454, "Bristol St Augustines"));
+            Stores.Add(new Store(455, "Llandrindod"));
+            Stores.Add(new Store(468, "Tonypandy"));
+            Stores.Add(new Store(473, "Kingswood"));
+            Stores.Add(new Store(489, "Henleaze"));
             Stores.Add(new Store(491, "Thornbury"));
             Stores.Add(new Store(494, "Cardiff Whichchurch"));
             Stores.Add(new Store(512, "Bristol Queens Rd"));
