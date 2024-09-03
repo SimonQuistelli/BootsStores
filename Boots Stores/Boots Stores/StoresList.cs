@@ -30,6 +30,7 @@ namespace Boots_Stores
             Stores.Add(new Store(276, "Hereford"));
             Stores.Add(new Store(280, "Swansea The Quadrant"));
             Stores.Add(new Store(283, "Llanelli Vaughan st"));
+            Stores.Add(new Store(285, "Aberdare"));
             Stores.Add(new Store(286, "Pontypridd"));
             Stores.Add(new Store(290, "Neath"));
             Stores.Add(new Store(291, "Port Talbot"));
@@ -57,6 +58,7 @@ namespace Boots_Stores
             Stores.Add(new Store(454, "Bristol St Augustines"));
             Stores.Add(new Store(455, "Llandrindod"));
             Stores.Add(new Store(468, "Tonypandy"));
+            Stores.Add(new Store(469, "Abertillery"));
             Stores.Add(new Store(473, "Kingswood"));
             Stores.Add(new Store(489, "Henleaze"));
             Stores.Add(new Store(491, "Thornbury"));
@@ -73,6 +75,7 @@ namespace Boots_Stores
             Stores.Add(new Store(2058, "Monmouth"));
             Stores.Add(new Store(2074, "Brecon"));
             Stores.Add(new Store(2089, "Cribbs Causeway"));
+            Stores.Add(new Store(2103, "Bath Westgate"));
             Stores.Add(new Store(2105, "Tredeger"));
             Stores.Add(new Store(2112, "Clevdon"));
             Stores.Add(new Store(2255, "Bristol Airport"));
