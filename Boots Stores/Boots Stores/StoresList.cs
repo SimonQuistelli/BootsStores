@@ -39,7 +39,7 @@ namespace Boots_Stores
             Stores.Add(new Store(296, "Bridgend"));
             Stores.Add(new Store(320, "Ebbw Vale"));
             Stores.Add(new Store(322, "Albany Rd"));
-            Stores.Add(new Store(323, "Cardiff Queen St"));
+            Stores.Add(new Store(323, "Queen St"));
             Stores.Add(new Store(326, "Tewkesbury"));
             Stores.Add(new Store(331, "Penarth"));
             Stores.Add(new Store(332, "Abergavenny"));
@@ -55,7 +55,7 @@ namespace Boots_Stores
             Stores.Add(new Store(432, "Ross-on-Wye"));
             Stores.Add(new Store(446, "Cliffton Down"));
             Stores.Add(new Store(451, "Chepstow"));
-            Stores.Add(new Store(454, "St Augustines"));
+            Stores.Add(new Store(454, "Bristol St Augustines"));
             Stores.Add(new Store(455, "Llandrindod"));
             Stores.Add(new Store(468, "Tonypandy"));
             Stores.Add(new Store(469, "Abertillery"));
@@ -71,19 +71,20 @@ namespace Boots_Stores
             Stores.Add(new Store(2019, "Caerphilly"));
             Stores.Add(new Store(2023, "Cwmbran"));
             Stores.Add(new Store(2054, "Builth Wells"));
-            Stores.Add(new Store(2057, "Hospital"));
+            Stores.Add(new Store(2057, "Cardiff Hospital"));
             Stores.Add(new Store(2058, "Monmouth"));
             Stores.Add(new Store(2074, "Brecon"));
-            Stores.Add(new Store(2089, "Cribbs Causeway"));
+            Stores.Add(new Store(2089, "Cribbs"));
             Stores.Add(new Store(2103, "Bath Westgate"));
             Stores.Add(new Store(2105, "Tredeger"));
             Stores.Add(new Store(2156, "Broadcast House"));
             Stores.Add(new Store(2112, "Clevdon"));
-            Stores.Add(new Store(2255, "Bristol Airport"));
+            Stores.Add(new Store(2255, "Airport"));
             Stores.Add(new Store(6034, "Quedgeley RP"));
             Stores.Add(new Store(6386, "Trowbridge"));
             Stores.Add(new Store(6424, "Emerson Green"));
-            Stores.Add(new Store(6476, "Spitty"));
+            Stores.Add(new Store(6439, "Cardiff Bay"));
+            Stores.Add(new Store(6476, "Newport RP Spitty"));
             Stores.Add(new Store(6481, "Avonmeads"));
             Stores.Add(new Store(6507, "Chelthenhan Gallagher"));
             Stores.Add(new Store(6542, "Cardiff Ty Glas"));
@@ -95,8 +96,8 @@ namespace Boots_Stores
             Stores.Add(new Store(6572, "Llanelli Parc Trostre"));
             Stores.Add(new Store(6575, "Morfa"));
             Stores.Add(new Store(6588, "Merthyr tydfil"));
-            Stores.Add(new Store(6611, "Imperial RP"));
-            Stores.Add(new Store(6705, "Evesham"));
+            Stores.Add(new Store(6611, "Bristol Imperial RP"));
+            Stores.Add(new Store(6705, "Evesham RP"));
         }
 
         public Store GetRandomStore()
